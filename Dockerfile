@@ -1,6 +1,7 @@
-FROM nextcloud:20-beta-fpm
+FROM nextcloud:20-beta
 
 WORKDIR /
 USER root
 
+EXPOSE 80
 EXPOSE 9000
